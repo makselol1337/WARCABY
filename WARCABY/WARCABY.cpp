@@ -3,6 +3,7 @@ using namespace std;
 
 
 int main() {
+	char ruch;
 	char tablica[8][8] = {
 		{'-', 'C', '-', 'C', '-', 'C', '-', 'C'},
 		{'C', '-', 'C', '-', 'C', '-', 'C', '-'},
@@ -19,9 +20,8 @@ int main() {
 			cout << tablica[rzad][kolumna] << " ";
 		}
 		cout << endl;
-
-	}
-
+		}
+cin>> ruch;
 
 
 
